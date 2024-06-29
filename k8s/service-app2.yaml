@@ -11,6 +11,6 @@ spec:
     protocol: TCP
     targetPort: 80
   selector:
-    run: hello1
+    run: hello
 status:
   loadBalancer: {}
